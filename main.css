@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: #F0182F;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+
+}
+
+.inputSection {
+    margin: 50px 0px 80px 0px;
+    width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.addOption {
+  margin-top: 10px;
+  height: 40px;
+  border-color: #F04AB9;
+  background-color: #F04AB9;
+  color: white;
+}
+
+.addOption:hover {
+  background-color: #0048FF;
+}
